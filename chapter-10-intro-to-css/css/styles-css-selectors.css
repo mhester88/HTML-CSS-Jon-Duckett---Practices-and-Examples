@@ -1,0 +1,21 @@
+body {
+	font-family: cursive;
+	background-color: rgb(172,183,188);}
+h1 {
+	color: rgb(80,55,46);}
+h2 {
+	color: rgb(146,119,100);}
+.note {
+	color: rgb(221,230,232);}
+p.note {
+	color: rgb(221,230,232);}
+#introduction {
+	color: rgb(221,230,232);}
+li>a {
+	color: rgb(128,144,145);}
+p a {
+	color: rgb(255,63,199);}
+h1+p {
+	color: rgb(161,255,207);}
+h1~p{
+	color: rgb(176,247,14);}

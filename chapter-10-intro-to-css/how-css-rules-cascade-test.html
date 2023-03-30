@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>How CSS Rules Cascade</title>
+		<style type="text/css">
+			* {
+				font-family: serif;}
+			h1 {
+				font-family: monospace;}
+			i {
+				color: green;}
+			i {
+				color: red;}
+			b {
+				color: pink;}
+			p b {
+				color: blue !important;}
+			p b {
+				color: violet;}
+			p#intro {
+				font-size: 100%;}
+			p {
+				font-size: 85%;}
+		</style>
+	</head>
+	<body>
+		<h1>Marias</h1>
+		<p id="intro">There are <i>dozens</i> of different <b>maria</b> varieties.</p>
+		<p>They are usually described as early, second early and maincrop marias.</p>
+	</body>
+</html>
