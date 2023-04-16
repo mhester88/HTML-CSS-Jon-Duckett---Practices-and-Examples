@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Maria's Box Shadow</title>
+		<style type="text/css">
+			p {
+				width: 100px;
+				height: 100px;
+				background-color: #baaaa6;
+				margin: 20px;
+				display: inline-block;}
+			p.one { 
+				-moz-box-shadow: -7px -9px #777777; 
+				-webkit-box-shadow: -7px -9px #777777; 
+				box-shadow: -7px -9px #777777;}
+			p.two {
+				-moz-box-shadow: 10px 10px 10px #777777; 
+				-webkit-box-shadow: 10px 10px 10px #777777;
+				box-shadow: 10px 10px 10px #777777;}  
+			p.three {
+				-moz-box-shadow: 5px 5px 5px 8px #777777; 
+				-webkit-box-shadow: 5px 5px 5px 8px #777777;
+				box-shadow: 5px 5px 5px 8px #777777;} 
+			p.four {
+				-moz-box-shadow: 0 0 55px #777777; 
+				-webkit-box-shadow: 0 0 55px #777777;
+				box-shadow: 0 0 55px #777777;}
+			p.five {
+				-moz-box-shadow: inset 0 0 33px #777777; 
+				-webkit-box-shadow: inset 0 0 33px #777777;
+				box-shadow: inset 0 0 33px #777777;}
+		</style>
+	</head>
+	<body>
+		<p class="one"></p>
+		<p class="two"></p>
+		<p class="three"></p>
+		<br />
+		<p class="four"></p>
+		<p class="five"></p>
+	</body>
+</html>
